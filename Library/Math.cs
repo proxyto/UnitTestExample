@@ -8,5 +8,9 @@ namespace Library
 {
     public class Math
     {
+        public static double Add_2(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
