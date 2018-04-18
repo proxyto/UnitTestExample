@@ -10,11 +10,14 @@ namespace UnitTestExample
     {
         static void Main(string[] args)
         {
-            for(int i = 1; i <= 100; i++)
+            var l = new List<int>() { 1, 2, 3, 6, 4, 5, 3 };
+            var e = l.GetEnumerator();
+            while(e.MoveNext())
             {
-                Console.WriteLine(i);
+                int value = e.Current;
+                Console.WriteLine(value);
             }
-            Console.ReadLine();
+           
         }
     }
 }
