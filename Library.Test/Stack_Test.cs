@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Library.Test
 {
     [TestFixture]
-    class Stack
+    class Stack_Test
     {
         [Test]
         public void Test_Empty_Stack()

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Library.Test
 {
-    class Queue
+    class Queue_Test
     {
         [Test]
         public void Test_Empty_Queue()
